@@ -1,0 +1,32 @@
+<html>
+    <head>       
+        <title>제품 검색 페이지</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>제품 검색</h1>
+        <h3>
+          <form method="get" action="제품검색.html">
+                <p>제품종류 : <input type="checkbox" name="제품종류" value="수분크림"> 수분크림 
+                            <input type="checkbox" name="제품종류" value="보습크림"> 보습크림 
+                            <input type="checkbox" name="제품종류" value="토너"> 토너 
+                            <input type="checkbox" name="제품종류" value="앰플"> 앰플 </p>
+                
+                <p>사용부위 : <input type="checkbox" name="사용부위" value="얼굴"> 얼굴 
+                            <input type="checkbox" name="사용부위" value="바디"> 바디 
+                            <input type="checkbox" name="사용부위" value="핸드"> 핸드
+                            <input type="checkbox" name="사용부위" value="발"> 발 </p>
+                
+                <p>성분 : <input type="checkbox" name="성분" value="성분1" checked> 성분1 
+                            <input type="checkbox" name="성분" value="성분2" checked> 성분2 
+                            <input type="checkbox" name="성분" value="성분3" checked> 성분3
+                            <input type="checkbox" name="성분" value="성분4" checked> 성분4 </p>
+                
+                <p>가격 : <input type="text" name="min" size=10/> ~ <input type="text" name="max" size=10/></p>
+
+                <input type="button" value="검색" onclick="location.href='제품상세.html'"/>
+          </form>    
+         </h2> 
+         <br> <a href="main.html">-메인페이지로 이동</a>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>장바구니</title>
+</head>
+<body>
+
+<h1>장바구니</h1>
+<HR>
+
+<form action="cart.php" method="get">
+  <table border="1">
+    <thead>
+      <tr>
+        <td>
+          <input type="checkbox" id="check_all">
+          <label for="check_all">전체선택</label>
+        </td>
+        <th>상품이름</th>
+        <th>상품금액</th>
+        <th>수량</th>
+
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr class="cart_list_info">
+
+        <td>
+          <input type="checkbox"></td>
+        <td>
+          상품12
+        </td>
+        <td>
+          123
+        </td>
+        <td>
+          1
+        </td>
+
+      </tr>
+
+      <tr class="cart_list_info">
+
+        <td>
+          <input type="checkbox"></td>
+        <td>
+          상품2
+        </td>
+        <td>
+          123
+        </td>
+        <td>
+          1
+        </td>
+
+      </tr>
+      <tr class="cart_list_info">
+
+        <td>
+          <input type="checkbox"></td>
+        <td>
+          상품1
+        </td>
+        <td>
+          123
+        </td>
+        <td>
+          1
+        </td>
+
+      </tr>
+
+</tbody>
+
+    <tfoot>
+      <tr>
+          <td colspan="4"><input type="checkbox"><button>선택상품 삭제</button>
+          </td>
+        </tr>
+
+      </tfoot>
+    </table>
+
+      최종결제금액(Σ상품수x상품금액):
+      &emsp;&emsp;&emsp;원 &emsp;
+      <input type="submit" value="주문"/>
+  </form>
+
+
+<br>
+
+
+<a href="main.html">메인 화면으로 돌아가기</a>
+
+
+</body>
+</html>
