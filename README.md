@@ -6,11 +6,10 @@
    <h3>📌시스템 소개</h3>
   <p><img src="https://github.com/sonlucy/salesManagement/assets/86239847/c6d02217-a283-4c3d-b21e-758867ffdcb7" alt="salesmansystem"></p>
   <p><img src="https://github.com/sonlucy/salesManagement/assets/86239847/fa759010-fb2f-41cb-b4e9-481b8c05cf51" alt="image"></p>
-
-
 </div>
-
-<div>
+<hr><br>
+<div align="center">
+	<h3>📌EERD 설계</h3>
 	<p><img src="https://github.com/sonlucy/salesManagement/assets/86239847/e5842cae-e851-4f4c-9359-6a344774646a" alt="image"></p>
 
 </div>
