@@ -10,6 +10,11 @@
 
 </div>
 
+<div>
+	<p><img src="https://github.com/sonlucy/salesManagement/assets/86239847/e5842cae-e851-4f4c-9359-6a344774646a" alt="image"></p>
+
+</div>
+
 <hr><br>
 
 <div align="left">
